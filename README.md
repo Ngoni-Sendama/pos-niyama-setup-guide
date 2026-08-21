@@ -18,8 +18,8 @@ Use these instructions to install the printer driver, set up PHP, share the prin
 
 For PHP and Laravel browser-based printing, use:
 
-- `https://github.com/mike42/escpos-php`
-- `https://github.com/darkterminal/escpos-printer-server`
+- [mike42/escpos-php](https://github.com/mike42/escpos-php) - purpose: allows you to generate and print receipts with basic formatting, cutting, and barcodes on a compatible printer.
+- [darkterminal/escpos-printer-server](https://github.com/darkterminal/escpos-printer-server) - purpose: EPS (ESC/POS Printer Server) executable bridges your web or desktop application and the thermal printer.
 
 ```powershell
 php -v
@@ -27,9 +27,11 @@ php -v
 
 ## Printer Connection
 
-1. Connect the USB printer to the PC.
-2. Install `Niyama Printer Driver (1).exe`.
-3. Confirm the printer appears in Windows.
+1. Open Windows **Bluetooth & devices** settings.
+2. Add the printer device from the Bluetooth/device settings path.
+3. Connect the USB printer to the PC if required.
+4. Install `Niyama Printer Driver (1).exe`.
+5. Confirm the printer appears in Windows.
 
 ## Printer Sharing Setup
 
@@ -63,6 +65,9 @@ You should see:
 
 - `Name = POS58 Printer`
 - `ShareName = POS58`
+- `PortName = ...`
+
+The printer `Name` might be different on your PC, but if you followed the steps above, the `ShareName` should still be `POS58`.
 
 ## App Configuration
 
