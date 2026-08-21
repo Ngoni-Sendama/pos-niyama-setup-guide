@@ -2,7 +2,7 @@
 
 This repository contains setup and support notes for POS Niyama.
 
-![POS Niyama printer](bt-58-bluetooth-niyama-1-original-imaghr46havrhen4.webp)
+<img src="bt-58-bluetooth-niyama-1-original-imaghr46havrhen4.webp" alt="POS Niyama printer" width="420">
 
 ## Overview
 
