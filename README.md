@@ -2,6 +2,8 @@
 
 This repository contains setup and support notes for POS Niyama.
 
+![POS Niyama printer](bt-58-bluetooth-niyama-1-original-imaghr46havrhen4.webp)
+
 ## Overview
 
 Use these instructions to install the printer driver, set up PHP, share the printer on Windows, and troubleshoot common printing issues.
